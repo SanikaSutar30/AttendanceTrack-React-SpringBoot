@@ -5,6 +5,12 @@ This application allows admins and faculty to manage students, subjects, users, 
 
 ---
 
+## 🎥 Demo Video
+
+[▶️ Click to Watch Demo](https://drive.google.com/file/d/120w6bdIvOA4XXvGzLyeQ0Oy88vtXHiG-/view?usp=sharing)
+
+---
+
 ## 🚀 Tech Stack
 
 ### 🔹 Frontend
@@ -48,17 +54,27 @@ This application allows admins and faculty to manage students, subjects, users, 
 
 ---
 
+## 📸 Screenshots
+
+*Add your screenshots here (recommended 3–4 images)*
+
+```md
+![Login](screenshots/login.png)
+![Dashboard](screenshots/dashboard.png)
+![Attendance](screenshots/attendance.png)
+```
+
+---
+
 ## 📁 Project Structure
 
 ```
 AttendanceTrack/
 │
 ├── AttendanceTrackBackEnd/      # Spring Boot Backend
-│
 ├── AttendanceTrackFrontEnd/     # React Frontend
-│
-├── .gitignore
-└── README.md
+├── screenshots/                 # UI Screenshots
+├── README.md
 ```
 
 ---
@@ -72,20 +88,16 @@ git clone https://github.com/your-username/AttendanceTrack-React-SpringBoot.git
 cd AttendanceTrack
 ```
 
----
-
-### 🔹 2. Run Backend (Spring Boot)
+### 🔹 2. Run Backend
 
 ```
 cd AttendanceTrackBackEnd/SAMSTRACK_API-main
 mvn spring-boot:run
 ```
 
-👉 Backend runs on: `http://localhost:8080`
+👉 Backend: http://localhost:8080
 
----
-
-### 🔹 3. Run Frontend (React)
+### 🔹 3. Run Frontend
 
 ```
 cd AttendanceTrackFrontEnd/SAMSTRACK_REACT
@@ -93,32 +105,16 @@ npm install
 npm run dev
 ```
 
-👉 Frontend runs on: `http://localhost:5173`
-
----
-
-## 🔗 API Testing
-
-Use **Postman** collection available in backend:
-
-```
-SAMSTRACK_API.postman_collection.json
-```
-
----
-
-## 📸 Screenshots (Optional)
-
-*Add screenshots of your UI here for better presentation.*
+👉 Frontend: http://localhost:5173
 
 ---
 
 ## 📌 Future Enhancements
 
-* Role-based authentication (JWT)
+* JWT-based authentication
 * UI improvements
 * Reports & analytics
-* Deployment (AWS / Render)
+* Cloud deployment (AWS / Render)
 
 ---
 
@@ -131,5 +127,3 @@ SAMSTRACK_API.postman_collection.json
 ## ⭐ Show Your Support
 
 If you like this project, please ⭐ the repository!
-
----
